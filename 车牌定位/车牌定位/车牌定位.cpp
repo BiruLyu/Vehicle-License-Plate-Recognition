@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <location.h>
 #endif
 
 int thresh = 50;
@@ -145,22 +146,6 @@ CvSeq* findSquares4( IplImage* img, CvMemStorage* storage )
     return squares;
 }
 
-int compare(int x,int y,int w,int h)
-{
-     int min;
-	 min=x;
-	 if(y<min)
-		 min=y;
-	 if (w<min)
-		 min=w;
-	 if(h<min)
-		 min = h;
-
-	 return min;
-
-
-}
-
 
 // the function draws all the squares in the image
 void drawSquares( IplImage* img, CvSeq* squares )
@@ -191,45 +176,6 @@ void drawSquares( IplImage* img, CvSeq* squares )
         // draw the square as a closed polyline 
         cvPolyLine( cpy, &rect, &count, 1, 1, CV_RGB(0,255,0), 3, CV_AA, 0 );
     }
-
-	CvRect* r = (CvRect*)cvGetSeqElem(squares,i);//获得画线区域????????????????????????这里对吗？
-    CvRect p;
-    p.x=r->x;
-    p.y=r->y;
-    p.width=r->width;
-   p.height=r->height;
-    
-   	CvRect* r2 = (CvRect*)cvGetSeqElem(squares,i+1);//获得画线区域????????????????????????这里对吗？
-    CvRect p2;
-    p2.x=r2->x;
-    p2.y=r2->y;
-    p2.width=r2->width;
-    p2.height=r2->height;
-
-	CvRect* r3 = (CvRect*)cvGetSeqElem(squares,i+2);//获得画线区域????????????????????????这里对吗？
-    CvRect p3;
-    p3.x=r3->x;
-    p3.y=r3->y;
-    p3.width=r3->width;
-    p3.height=r3->height;
-
-	CvRect* r4 = (CvRect*)cvGetSeqElem(squares,i+3);//获得画线区域????????????????????????这里对吗？
-    CvRect p4;
-    p4.x=r4->x;
-    p4.y=r4->y;
-    p4.width=r4->width;
-    p4.height=r4->height;
-
-
-	CvSize size= cvSize((int)abs(p.x-p2.width),(int)abs(p2.height-p2.y));//区域大小
-	cvSetImageROI(img,cvRect(compare(p.x,p2.x,p3.x,p4.x),compare(p.y,p2.y,p3.y,p4.y),size.width, size.height));//设置源图像ROI
-    IplImage* pDest = cvCreateImage(size,img->depth,img->nChannels);//创建目标图像
-    cvCopy(img,pDest); //复制图像
-    cvResetImageROI(pDest);//源图像用完后，清空ROI
-    cvSaveImage("Roi.jpg",pDest);//保存目标图像
-
-
-
     
     // show the resultant image
     cvShowImage( wndname, cpy );
@@ -247,7 +193,7 @@ char* names[] = { "1.jpg", 0 };
 
 int main(int argc, char** argv)
 {
-    int i, c;
+    int i, c;A
     // create memory storage that will contain all the dynamic data
     storage = cvCreateMemStorage(0);
 

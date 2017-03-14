@@ -1,0 +1,19 @@
+﻿生成启动时间为 2015/3/18 16:00:53。
+项目“\\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\车牌定位\车牌定位.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在对“Debug\车牌定位.unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  所有输出均为最新。
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\Debug\车牌定位.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\opencv\build\x64\vc10\lib" /LIBPATH:"C:\Program Files\opencv\build\x86\vc10\lib" opencv_ml248d.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_nonfree248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_videostab248d.lib opencv_objdetect248.lib opencv_ts248.lib opencv_video248.lib opencv_nonfree248.lib opencv_ocl248.lib opencv_photo248.lib opencv_stitching248.lib opencv_superres248.lib opencv_videostab248.lib opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\车牌定位.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\Debug\车牌定位.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\Debug\车牌定位.lib" /MACHINE:X86 "Debug\车牌定位.obj"
+  车牌定位.vcxproj -> \\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\Debug\车牌定位.exe
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"\\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\Debug\车牌定位.exe.manifest" /manifest "Debug\车牌定位.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  正在删除文件“Debug\车牌定位.unsuccessfulbuild”。
+  正在对“Debug\车牌定位.lastbuildstate”执行 Touch 任务。
+已完成生成项目“\\psf\Home\Documents\Visual Studio 2010\Projects\车牌定位\车牌定位\车牌定位.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.59
