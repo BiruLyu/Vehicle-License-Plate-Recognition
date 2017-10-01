@@ -1,4 +1,4 @@
-# Vehicle-License-Plate-Recognition-and-Positioning-in-a-Parking-Lot
+# Vehicle-License-Plate-Recognition 
 This is a repository for a **recognition system of vehicle license plate and parking space number**. In order to help the owner to find the parking location or available parking space.  It also provides servers' easier vehicle identification and parking management in the parking lot.
 
 This project mainly explored the non-Chinese character recognition of vehicle license plate. Added the new feature of parking space number recognition to support quickly locate available parking space.
