@@ -13,7 +13,7 @@ System modules are as follows:
   + [Space number extraction](#space-number-extraction)
   + [Space number recognition](#space-number-recognition)
 + [Demo](#demo)
-+ [Conclusion](#Conclusion)
++ [Conclusion](#conclusion)
 
 
 
