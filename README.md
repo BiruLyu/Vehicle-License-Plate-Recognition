@@ -34,8 +34,7 @@ In general, the license plate is generally considered to be rectangular in the i
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fk2tql63m9j30eu0t0wg6.jpg)
 
-![](https://ws1.sinaimg.cn/large/006tNc79gy1fk2txv0sdxj30zq0wyq90.jpg)
-
+![](https://user-images.githubusercontent.com/22584778/31053806-4af8399e-a65a-11e7-8dd1-9f33787e9217.jpg)
 
 
 ## <a name = "license-plate-segmentation"></a>License plate image segmentation
